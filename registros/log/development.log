@@ -1,0 +1,1273 @@
+Started GET "/" for ::1 at 2022-07-11 23:11:49 -0700
+  [1m[35m (3.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/theface/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/theface/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 4.2ms | Allocations: 652)
+Completed 200 OK in 49ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 5099)
+
+
+Started GET "/" for ::1 at 2022-07-11 23:32:39 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/theface/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/theface/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.4ms | Allocations: 322)
+Completed 200 OK in 5ms (Views: 4.0ms | Allocations: 1034)
+
+
+Started GET "/" for ::1 at 2022-07-11 23:32:43 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/theface/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/theface/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 27)
+Completed 200 OK in 2ms (Views: 0.8ms | Allocations: 271)
+
+
+Started GET "/" for ::1 at 2022-07-11 23:33:02 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 10.3ms | Allocations: 3409)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 3517)
+Completed 500 Internal Server Error in 13ms (Allocations: 4462)
+
+
+  
+ActionView::Template::Error (undefined method `text_label' for #<ActionView::Helpers::FormBuilder:0x0000000106cb1ec8 @nested_child_index={}, @options={:allow_method_names_outside_object=>true, :skip_default_ids=>false}, @template=#<ActionView::Base:0x00000000011328>, @object=nil, @object_name=nil, @default_options={:skip_default_ids=>false, :allow_method_names_outside_object=>true}, @default_html_options={}, @multipart=nil, @index=nil>
+
+  '.freeze;@output_buffer.append=( form.text_label :nombre );@output_buffer.safe_append='
+                                       ^^^^^^^^^^^
+Did you mean?  text_area):
+    2: <p>Find me in app/views/pages/index.html.erb</p>
+    3: 
+    4: <%= form_with do |form| %>
+    5:   <%= form.text_label :nombre %>
+    6:   <%= form.text_field :nombre %>
+    7:   <%= form.submit "Search" %>
+    8: <% end %>
+  
+app/views/pages/index.html.erb:5
+app/views/pages/index.html.erb:4
+Started GET "/" for ::1 at 2022-07-12 21:35:12 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 6.1ms | Allocations: 2216)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 2311)
+Completed 500 Internal Server Error in 12ms (Allocations: 2919)
+
+
+  
+ActionView::Template::Error (undefined method `text_label' for #<ActionView::Helpers::FormBuilder:0x0000000106abbe48 @nested_child_index={}, @options={:allow_method_names_outside_object=>true, :skip_default_ids=>false}, @template=#<ActionView::Base:0x00000000014e10>, @object=nil, @object_name=nil, @default_options={:skip_default_ids=>false, :allow_method_names_outside_object=>true}, @default_html_options={}, @multipart=nil, @index=nil>
+
+  '.freeze;@output_buffer.append=( form.text_label :nombre );@output_buffer.safe_append='
+                                       ^^^^^^^^^^^
+Did you mean?  text_area):
+    2: <p>Find me in app/views/pages/index.html.erb</p>
+    3: 
+    4: <%= form_with do |form| %>
+    5:   <%= form.text_label :nombre %>
+    6:   <%= form.text_field :nombre %>
+    7:   <%= form.submit "Search" %>
+    8: <% end %>
+  
+app/views/pages/index.html.erb:5
+app/views/pages/index.html.erb:4
+Started GET "/" for ::1 at 2022-07-12 22:32:32 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 2463)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2557)
+Completed 500 Internal Server Error in 7ms (Allocations: 3490)
+
+
+  
+ActionView::Template::Error (undefined method `text_label' for #<ActionView::Helpers::FormBuilder:0x0000000106e63a28 @nested_child_index={}, @options={:allow_method_names_outside_object=>true, :skip_default_ids=>false}, @template=#<ActionView::Base:0x000000000189c0>, @object=nil, @object_name=nil, @default_options={:skip_default_ids=>false, :allow_method_names_outside_object=>true}, @default_html_options={}, @multipart=nil, @index=nil>
+
+  '.freeze;@output_buffer.append=( form.text_label :nombre );@output_buffer.safe_append='
+                                       ^^^^^^^^^^^
+Did you mean?  text_area):
+    2: <p>Find me in app/views/pages/index.html.erb</p>
+    3: 
+    4: <%= form_with(url: 'crear_usuario') do |form| %>
+    5:   <%= form.text_label :nombre %>
+    6:   <%= form.text_field :nombre %>
+    7:   <%= form.submit "Registrar" %>
+    8: <% end %>
+  
+app/views/pages/index.html.erb:5
+app/views/pages/index.html.erb:4
+Started GET "/" for ::1 at 2022-07-12 22:33:46 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 61.8ms | Allocations: 13177)
+Started GET "/" for ::1 at 2022-07-12 22:33:51 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1423)
+  Rendered layout layouts/application.html.erb (Duration: 6247.7ms | Allocations: 126883)
+Completed 200 OK in 6253ms (Views: 6250.3ms | Allocations: 127750)
+
+
+  Rendered layout layouts/application.html.erb (Duration: 399.9ms | Allocations: 94718)
+Completed 200 OK in 405ms (Views: 401.1ms | Allocations: 95543)
+
+
+Started GET "/" for ::1 at 2022-07-12 22:33:52 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1382)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 3597)
+Completed 200 OK in 12ms (Views: 11.4ms | Allocations: 3860)
+
+
+Started POST "/crear_usuario" for ::1 at 2022-07-12 22:33:56 -0700
+  
+ActionController::RoutingError (No route matches [POST] "/crear_usuario"):
+  
+Started GET "/" for ::1 at 2022-07-12 22:33:56 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1515)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 3844)
+Completed 200 OK in 6ms (Views: 5.5ms | Allocations: 4142)
+
+
+Started POST "/crear_usuario" for ::1 at 2022-07-12 22:34:08 -0700
+  
+ActionController::RoutingError (No route matches [POST] "/crear_usuario"):
+  
+Started GET "/" for ::1 at 2022-07-12 22:34:08 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1464)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 3685)
+Completed 200 OK in 8ms (Views: 7.3ms | Allocations: 3948)
+
+
+Started POST "/crear_usuario" for ::1 at 2022-07-12 22:34:42 -0700
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [POST] "/crear_usuario"):
+  
+Started GET "/" for ::1 at 2022-07-12 22:34:43 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 3006)
+  Rendered layout layouts/application.html.erb (Duration: 198.1ms | Allocations: 37329)
+Completed 200 OK in 212ms (Views: 202.2ms | ActiveRecord: 0.0ms | Allocations: 39606)
+
+
+Started POST "/crear_usuario" for ::1 at 2022-07-12 22:37:03 -0700
+  
+ActionController::RoutingError (No route matches [POST] "/crear_usuario"):
+  
+Started GET "/" for ::1 at 2022-07-12 22:37:03 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1651)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 15526)
+Completed 200 OK in 17ms (Views: 16.3ms | Allocations: 16168)
+
+
+Started POST "/crear_usuario" for ::1 at 2022-07-12 22:37:25 -0700
+  
+ActionController::RoutingError (No route matches [POST] "/crear_usuario"):
+  
+Started GET "/" for ::1 at 2022-07-12 22:37:26 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1476)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 3706)
+Completed 200 OK in 7ms (Views: 6.7ms | Allocations: 3990)
+
+
+Started GET "/" for ::1 at 2022-07-12 22:37:53 -0700
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 10.1ms | Allocations: 3523)
+  Rendered layout layouts/application.html.erb (Duration: 131.2ms | Allocations: 37748)
+Completed 200 OK in 142ms (Views: 134.7ms | ActiveRecord: 0.0ms | Allocations: 41133)
+
+
+Started POST "/crear_usuario" for ::1 at 2022-07-12 22:38:24 -0700
+  
+ActionController::RoutingError (No route matches [POST] "/crear_usuario"):
+  
+Started GET "/" for ::1 at 2022-07-12 22:38:24 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1598)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 3929)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 4241)
+
+
+Started POST "/crear_usuario" for ::1 at 2022-07-12 22:38:32 -0700
+  
+ActionController::RoutingError (No route matches [POST] "/crear_usuario"):
+  
+Started GET "/" for ::1 at 2022-07-12 22:38:32 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1470)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 3700)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 3968)
+
+
+Started POST "/crear_usuario" for ::1 at 2022-07-12 22:39:57 -0700
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [POST] "/crear_usuario"):
+  
+Started GET "/" for ::1 at 2022-07-12 22:39:57 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 3006)
+  Rendered layout layouts/application.html.erb (Duration: 111.3ms | Allocations: 37331)
+Completed 200 OK in 119ms (Views: 113.6ms | ActiveRecord: 0.0ms | Allocations: 39608)
+
+
+Started POST "/crear_usuario" for ::1 at 2022-07-12 22:41:11 -0700
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [POST] "/crear_usuario"):
+  
+Started GET "/" for ::1 at 2022-07-12 22:41:11 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 3018)
+  Rendered layout layouts/application.html.erb (Duration: 115.7ms | Allocations: 37321)
+Completed 200 OK in 124ms (Views: 117.7ms | ActiveRecord: 0.0ms | Allocations: 39598)
+
+
+Started GET "/" for ::1 at 2022-07-12 22:42:31 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1464)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 3681)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 3993)
+
+
+Started POST "/crear_usuario" for ::1 at 2022-07-12 22:42:38 -0700
+  
+ActionController::RoutingError (No route matches [POST] "/crear_usuario"):
+  
+Started GET "/" for ::1 at 2022-07-12 22:42:38 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1470)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 3700)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 3969)
+
+
+Started POST "/crear_usuario" for ::1 at 2022-07-12 23:14:25 -0700
+  
+ActionController::RoutingError (No route matches [POST] "/crear_usuario"):
+  
+Started GET "/" for ::1 at 2022-07-12 23:14:25 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 11.2ms | Allocations: 1651)
+  Rendered layout layouts/application.html.erb (Duration: 70.8ms | Allocations: 15513)
+Completed 200 OK in 73ms (Views: 72.1ms | Allocations: 16155)
+
+
+Started POST "/crear_usuario" for ::1 at 2022-07-12 23:20:58 -0700
+  
+ActionController::RoutingError (No route matches [POST] "/crear_usuario"):
+  
+Started GET "/" for ::1 at 2022-07-12 23:20:58 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1846)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 4455)
+Completed 200 OK in 11ms (Views: 9.5ms | Allocations: 5251)
+
+
+Started POST "/crear_pages" for ::1 at 2022-07-12 23:22:06 -0700
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#crear as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "nombre"=>"asdasd", "commit"=>"Registrar"}
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms | Allocations: 2291)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/pages_controller.rb:7:in `crear'
+Started GET "/" for ::1 at 2022-07-12 23:22:50 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 19.6ms | Allocations: 3113)
+  Rendered layout layouts/application.html.erb (Duration: 161.5ms | Allocations: 37674)
+Completed 200 OK in 167ms (Views: 165.1ms | ActiveRecord: 0.0ms | Allocations: 38747)
+
+
+Started POST "/crear_pages" for ::1 at 2022-07-12 23:22:52 -0700
+Processing by PagesController#crear as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "nombre"=>"", "commit"=>"Registrar"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 715)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/pages_controller.rb:7:in `crear'
+Started POST "/crear_pages" for ::1 at 2022-07-12 23:23:23 -0700
+Processing by PagesController#crear as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "nombre"=>"ascdcds", "commit"=>"Registrar"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 691)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/pages_controller.rb:7:in `crear'
+Started GET "/" for ::1 at 2022-07-12 23:25:32 -0700
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 8.6ms | Allocations: 3504)
+  Rendered layout layouts/application.html.erb (Duration: 111.6ms | Allocations: 38193)
+Completed 200 OK in 125ms (Views: 116.9ms | ActiveRecord: 0.0ms | Allocations: 41578)
+
+
+Started POST "/crear_pages" for ::1 at 2022-07-12 23:25:36 -0700
+Processing by PagesController#crear as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "nombre"=>"sfsdsdf", "commit"=>"Registrar"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 863)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/pages_controller.rb:7:in `crear'
+Started POST "/crear_pages" for ::1 at 2022-07-12 23:25:51 -0700
+Processing by PagesController#crear as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "nombre"=>"", "commit"=>"Registrar"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 784)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/pages_controller.rb:7:in `crear'
+Started GET "/" for ::1 at 2022-07-12 23:26:51 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1622)
+  Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 15483)
+Completed 200 OK in 20ms (Views: 19.6ms | Allocations: 16126)
+
+
+Started POST "/crear_pages" for ::1 at 2022-07-12 23:26:58 -0700
+Processing by PagesController#crear as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "nombre"=>"sdsdsdevecece", "commit"=>"Registrar"}
+Completed 500 Internal Server Error in 1ms (Allocations: 735)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/pages_controller.rb:7:in `crear'
+Started GET "/" for ::1 at 2022-07-12 23:27:12 -0700
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 9.2ms | Allocations: 3518)
+  Rendered layout layouts/application.html.erb (Duration: 105.2ms | Allocations: 38299)
+Completed 200 OK in 117ms (Views: 108.8ms | ActiveRecord: 0.0ms | Allocations: 41684)
+
+
+Started POST "/crear_pages" for ::1 at 2022-07-12 23:27:16 -0700
+Processing by PagesController#crear as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "nombre"=>"scsdsd", "commit"=>"Registrar"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 878)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/pages_controller.rb:7:in `crear'
+Started GET "/" for ::1 at 2022-07-12 23:29:59 -0700
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 11.8ms | Allocations: 3534)
+  Rendered layout layouts/application.html.erb (Duration: 125.2ms | Allocations: 38137)
+Completed 200 OK in 141ms (Views: 130.9ms | ActiveRecord: 0.0ms | Allocations: 41522)
+
+
+Started POST "/crear_pages" for ::1 at 2022-07-12 23:30:03 -0700
+Processing by PagesController#crear as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "nombre"=>"dwdwdw", "commit"=>"Registrar"}
+No template found for PagesController#crear, rendering head :no_content
+Completed 204 No Content in 2ms (ActiveRecord: 0.0ms | Allocations: 770)
+
+
+Started POST "/crear_pages" for ::1 at 2022-07-12 23:33:15 -0700
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#crear as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "nombre"=>"dwdwdw", "commit"=>"Registrar"}
+No template found for PagesController#crear, rendering head :no_content
+Completed 204 No Content in 9ms (ActiveRecord: 0.0ms | Allocations: 2461)
+
+
+Started POST "/crear_pages" for ::1 at 2022-07-13 11:11:01 -0700
+Processing by PagesController#crear as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "nombre"=>"dwdwdw", "commit"=>"Registrar"}
+No template found for PagesController#crear, rendering head :no_content
+Completed 204 No Content in 24ms (Allocations: 690)
+
+
+Started POST "/crear_pages" for ::1 at 2022-07-13 11:11:02 -0700
+Processing by PagesController#crear as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "nombre"=>"dwdwdw", "commit"=>"Registrar"}
+No template found for PagesController#crear, rendering head :no_content
+Completed 204 No Content in 1ms (Allocations: 387)
+
+
+Started POST "/crear_pages" for ::1 at 2022-07-13 11:11:02 -0700
+Processing by PagesController#crear as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "nombre"=>"dwdwdw", "commit"=>"Registrar"}
+No template found for PagesController#crear, rendering head :no_content
+Completed 204 No Content in 1ms (Allocations: 391)
+
+
+Started GET "/" for ::1 at 2022-07-13 21:05:54 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 39.8ms | Allocations: 3334)
+  Rendered layout layouts/application.html.erb (Duration: 217.2ms | Allocations: 38129)
+Completed 200 OK in 273ms (Views: 235.1ms | Allocations: 40035)
+
+
+Started GET "/" for ::1 at 2022-07-13 22:51:42 -0700
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 21.1ms | Allocations: 8425)
+  Rendered layout layouts/application.html.erb (Duration: 21.5ms | Allocations: 8540)
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.0ms | Allocations: 11863)
+
+
+  
+ActionView::Template::Error (undefined method `pasword_field' for #<ActionView::Helpers::FormBuilder:0x000000010e5da020 @nested_child_index={}, @options={:allow_method_names_outside_object=>true, :skip_default_ids=>false}, @template=#<ActionView::Base:0x0000000000a460>, @object=nil, @object_name=nil, @default_options={:skip_default_ids=>false, :allow_method_names_outside_object=>true}, @default_html_options={}, @multipart=nil, @index=nil>
+
+  '.freeze;@output_buffer.append=( form.pasword_field :password );@output_buffer.safe_append='
+                                       ^^^^^^^^^^^^^^
+Did you mean?  password_field):
+    20: 
+    21: <div>
+    22:   <%= form.label :password %>
+    23:   <%= form.pasword_field :password %>
+    24: </div>
+    25: 
+    26: <div>
+  
+app/views/pages/index.html.erb:23
+app/views/pages/index.html.erb:4
+Started GET "/" for ::1 at 2022-07-13 22:52:11 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 13.2ms | Allocations: 7578)
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 7682)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms | Allocations: 8510)
+
+
+  
+ActionView::Template::Error (undefined method `pasword_field' for #<ActionView::Helpers::FormBuilder:0x000000010e7d2b98 @nested_child_index={}, @options={:allow_method_names_outside_object=>true, :skip_default_ids=>false}, @template=#<ActionView::Base:0x0000000000a7d0>, @object=nil, @object_name=nil, @default_options={:skip_default_ids=>false, :allow_method_names_outside_object=>true}, @default_html_options={}, @multipart=nil, @index=nil>
+
+  '.freeze;@output_buffer.append=( form.pasword_field :color_favorito );@output_buffer.safe_append='
+                                       ^^^^^^^^^^^^^^
+Did you mean?  password_field):
+    25: 
+    26: <div>
+    27:   <%= form.label :color_favorito %>
+    28:   <%= form.pasword_field :color_favorito %>
+    29: </div>
+    30: 
+    31:   <%= form.submit "Registrar" %>
+  
+app/views/pages/index.html.erb:28
+app/views/pages/index.html.erb:4
+Started GET "/" for ::1 at 2022-07-13 22:52:14 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 6902)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 6991)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 7260)
+
+
+  
+ActionView::Template::Error (undefined method `pasword_field' for #<ActionView::Helpers::FormBuilder:0x000000010e9f1230 @nested_child_index={}, @options={:allow_method_names_outside_object=>true, :skip_default_ids=>false}, @template=#<ActionView::Base:0x0000000000aaf0>, @object=nil, @object_name=nil, @default_options={:skip_default_ids=>false, :allow_method_names_outside_object=>true}, @default_html_options={}, @multipart=nil, @index=nil>
+
+  '.freeze;@output_buffer.append=( form.pasword_field :color_favorito );@output_buffer.safe_append='
+                                       ^^^^^^^^^^^^^^
+Did you mean?  password_field):
+    25: 
+    26: <div>
+    27:   <%= form.label :color_favorito %>
+    28:   <%= form.pasword_field :color_favorito %>
+    29: </div>
+    30: 
+    31:   <%= form.submit "Registrar" %>
+  
+app/views/pages/index.html.erb:28
+app/views/pages/index.html.erb:4
+Started GET "/" for ::1 at 2022-07-13 22:52:35 -0700
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 13.2ms | Allocations: 9582)
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 9697)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.0ms | Allocations: 13020)
+
+
+  
+ActionView::Template::Error (undefined method `pasword_field' for #<ActionView::Helpers::FormBuilder:0x0000000108892408 @nested_child_index={}, @options={:allow_method_names_outside_object=>true, :skip_default_ids=>false}, @template=#<ActionView::Base:0x0000000000a488>, @object=nil, @object_name=nil, @default_options={:skip_default_ids=>false, :allow_method_names_outside_object=>true}, @default_html_options={}, @multipart=nil, @index=nil>
+
+  '.freeze;@output_buffer.append=( form.pasword_field :color_favorito );@output_buffer.safe_append='
+                                       ^^^^^^^^^^^^^^
+Did you mean?  password_field):
+    25: 
+    26: <div>
+    27:   <%= form.label :color_favorito %>
+    28:   <%= form.pasword_field :color_favorito %>
+    29: </div>
+    30: 
+    31:   <%= form.submit "Registrar" %>
+  
+app/views/pages/index.html.erb:28
+app/views/pages/index.html.erb:4
+Started GET "/" for ::1 at 2022-07-13 22:52:43 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 6969)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 7058)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 7342)
+
+
+  
+ActionView::Template::Error (undefined method `pasword_field' for #<ActionView::Helpers::FormBuilder:0x0000000108973278 @nested_child_index={}, @options={:allow_method_names_outside_object=>true, :skip_default_ids=>false}, @template=#<ActionView::Base:0x0000000000a7a8>, @object=nil, @object_name=nil, @default_options={:skip_default_ids=>false, :allow_method_names_outside_object=>true}, @default_html_options={}, @multipart=nil, @index=nil>
+
+  '.freeze;@output_buffer.append=( form.pasword_field :color_favorito );@output_buffer.safe_append='
+                                       ^^^^^^^^^^^^^^
+Did you mean?  password_field):
+    25: 
+    26: <div>
+    27:   <%= form.label :color_favorito %>
+    28:   <%= form.pasword_field :color_favorito %>
+    29: </div>
+    30: 
+    31:   <%= form.submit "Registrar" %>
+  
+app/views/pages/index.html.erb:28
+app/views/pages/index.html.erb:4
+Started GET "/" for ::1 at 2022-07-13 22:53:17 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 26.6ms | Allocations: 14431)
+  Rendered layout layouts/application.html.erb (Duration: 104.0ms | Allocations: 48986)
+Completed 200 OK in 109ms (Views: 107.4ms | ActiveRecord: 0.0ms | Allocations: 49861)
+
+
+Started POST "/crear_pages" for ::1 at 2022-07-13 22:56:57 -0700
+Processing by PagesController#crear as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "nombre"=>"qweqe", "apellido"=>"qweqe", "correo"=>"eqw@das.com", "password"=>"[FILTERED]", "color_favorito"=>"#822626", "commit"=>"Registrar"}
+No template found for PagesController#crear, rendering head :no_content
+Completed 204 No Content in 2ms (ActiveRecord: 0.0ms | Allocations: 769)
+
+
+Started POST "/crear_pages" for ::1 at 2022-07-13 22:57:17 -0700
+Processing by PagesController#crear as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "nombre"=>"qweqe", "apellido"=>"qweqe", "correo"=>"eqw@das.com", "password"=>"[FILTERED]", "color_favorito"=>"#822626", "commit"=>"Registrar"}
+No template found for PagesController#crear, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 360)
+
+
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (2.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (2.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateTags (20220714062744)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "tags" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "nombre" varchar, "apellido" varchar, "correo" varchar, "password" varchar, "color_favorito" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20220714062744"]]
+  [1m[36mTRANSACTION (2.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2022-07-14 06:36:06.149226"], ["updated_at", "2022-07-14 06:36:06.149226"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2022-07-13 23:47:07 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 5568)
+  Rendered layout layouts/application.html.erb (Duration: 22.2ms | Allocations: 19577)
+Completed 200 OK in 26ms (Views: 24.6ms | ActiveRecord: 0.0ms | Allocations: 20572)
+
+
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mTag Load (0.3ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+  [1m[36mTag Load (0.1ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+Started POST "/crear_pages" for ::1 at 2022-07-14 00:59:04 -0700
+Processing by PagesController#crear as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "nombre"=>"Juan", "apellido"=>"Perez", "correo"=>"asdasda@asdas.com", "password"=>"[FILTERED]", "color_favorito"=>"#000000", "commit"=>"Registrar"}
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/pages_controller.rb:6:in `crear'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pages_controller.rb:6:in `crear'
+  [1m[36mTag Create (0.6ms)[0m  [1m[32mINSERT INTO "tags" ("nombre", "apellido", "correo", "password", "color_favorito", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["nombre", "Juan"], ["apellido", "Perez"], ["correo", "asdasda@asdas.com"], ["password", "[FILTERED]"], ["color_favorito", "#000000"], ["created_at", "2022-07-14 07:59:04.664861"], ["updated_at", "2022-07-14 07:59:04.664861"]]
+  ↳ app/controllers/pages_controller.rb:6:in `crear'
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pages_controller.rb:6:in `crear'
+No template found for PagesController#crear, rendering head :no_content
+Completed 204 No Content in 28ms (ActiveRecord: 3.9ms | Allocations: 10103)
+
+
+Started POST "/crear_pages" for ::1 at 2022-07-14 01:00:11 -0700
+Processing by PagesController#crear as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "nombre"=>"Rodrigo", "apellido"=>"Basdryilo", "correo"=>"sadasdas@xn--sda-tla.com", "password"=>"[FILTERED]", "color_favorito"=>"#a72f2f", "commit"=>"Registrar"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pages_controller.rb:6:in `crear'
+  [1m[36mTag Create (0.6ms)[0m  [1m[32mINSERT INTO "tags" ("nombre", "apellido", "correo", "password", "color_favorito", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["nombre", "Rodrigo"], ["apellido", "Basdryilo"], ["correo", "sadasdas@xn--sda-tla.com"], ["password", "[FILTERED]"], ["color_favorito", "#a72f2f"], ["created_at", "2022-07-14 08:00:11.166186"], ["updated_at", "2022-07-14 08:00:11.166186"]]
+  ↳ app/controllers/pages_controller.rb:6:in `crear'
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pages_controller.rb:6:in `crear'
+No template found for PagesController#crear, rendering head :no_content
+Completed 204 No Content in 9ms (ActiveRecord: 2.5ms | Allocations: 2271)
+
+
+  [1m[36mTag Load (0.2ms)[0m  [1m[34mSELECT "tags".* FROM "tags"[0m
+Started POST "/crear_pages" for ::1 at 2022-07-14 11:11:49 -0700
+Processing by PagesController#crear as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "nombre"=>"Angelica", "apellido"=>"Vergasteinen", "correo"=>"jordkar@asdsad.com", "password"=>"[FILTERED]", "color_favorito"=>"#a6cd18", "commit"=>"Registrar"}
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/pages_controller.rb:6:in `crear'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pages_controller.rb:6:in `crear'
+  [1m[36mTag Create (2.0ms)[0m  [1m[32mINSERT INTO "tags" ("nombre", "apellido", "correo", "password", "color_favorito", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["nombre", "Angelica"], ["apellido", "Vergasteinen"], ["correo", "jordkar@asdsad.com"], ["password", "[FILTERED]"], ["color_favorito", "#a6cd18"], ["created_at", "2022-07-14 18:11:49.876741"], ["updated_at", "2022-07-14 18:11:49.876741"]]
+  ↳ app/controllers/pages_controller.rb:6:in `crear'
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pages_controller.rb:6:in `crear'
+No template found for PagesController#crear, rendering head :no_content
+Completed 204 No Content in 83ms (ActiveRecord: 5.6ms | Allocations: 2751)
+
+
+Started GET "/" for ::1 at 2022-07-14 21:48:14 -0700
+  [1m[35m (2.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 38.7ms | Allocations: 7874)
+  Rendered layout layouts/application.html.erb (Duration: 2321.7ms | Allocations: 115175)
+Completed 500 Internal Server Error in 2356ms (ActiveRecord: 0.0ms | Allocations: 118516)
+
+
+  
+ActionView::Template::Error (Asset `popper.js` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link popper.js
+
+and restart your server):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/" for ::1 at 2022-07-14 21:51:01 -0700
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 16.6ms | Allocations: 7883)
+  Rendered layout layouts/application.html.erb (Duration: 105.0ms | Allocations: 54176)
+Completed 500 Internal Server Error in 119ms (ActiveRecord: 0.0ms | Allocations: 57518)
+
+
+  
+ActionView::Template::Error (Asset `popper.js` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link popper.js
+
+and restart your server):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/" for ::1 at 2022-07-14 22:03:24 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 5281)
+  Rendered layout layouts/application.html.erb (Duration: 76.4ms | Allocations: 29935)
+Completed 500 Internal Server Error in 80ms (Allocations: 30221)
+
+
+  
+ActionView::Template::Error (Asset `popper.js` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link popper.js
+
+and restart your server):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/" for ::1 at 2022-07-14 22:13:37 -0700
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 39.6ms | Allocations: 7874)
+  Rendered layout layouts/application.html.erb (Duration: 239.0ms | Allocations: 62396)
+Completed 500 Internal Server Error in 267ms (ActiveRecord: 0.0ms | Allocations: 65737)
+
+
+  
+ActionView::Template::Error (Asset `bootstrap.min.js` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link bootstrap.min.js
+
+and restart your server):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/" for ::1 at 2022-07-14 22:14:24 -0700
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 36.7ms | Allocations: 7883)
+  Rendered layout layouts/application.html.erb (Duration: 112.6ms | Allocations: 44240)
+Completed 500 Internal Server Error in 142ms (ActiveRecord: 0.0ms | Allocations: 47582)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+
+and restart your server):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2022-07-14 22:14:26 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 7.3ms | Allocations: 5281)
+  Rendered layout layouts/application.html.erb (Duration: 39.4ms | Allocations: 22845)
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 0.0ms | Allocations: 23135)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+
+and restart your server):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2022-07-14 22:14:28 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 5.7ms | Allocations: 5160)
+  Rendered layout layouts/application.html.erb (Duration: 34.2ms | Allocations: 22543)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 0.0ms | Allocations: 22793)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+
+and restart your server):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2022-07-14 22:15:48 -0700
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 37.6ms | Allocations: 7883)
+  Rendered layout layouts/application.html.erb (Duration: 130.1ms | Allocations: 44513)
+Completed 500 Internal Server Error in 155ms (ActiveRecord: 0.0ms | Allocations: 47855)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+
+and restart your server):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started POST "/crear_pages" for ::1 at 2022-07-14 22:19:03 -0700
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#crear as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "nombre"=>"Angelica", "apellido"=>"Vergasteinen", "correo"=>"jordkar@asdsad.com", "password"=>"[FILTERED]", "color_favorito"=>"#a6cd18", "commit"=>"Registrar"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pages_controller.rb:6:in `crear'
+  [1m[36mTag Create (0.7ms)[0m  [1m[32mINSERT INTO "tags" ("nombre", "apellido", "correo", "password", "color_favorito", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["nombre", "Angelica"], ["apellido", "Vergasteinen"], ["correo", "jordkar@asdsad.com"], ["password", "[FILTERED]"], ["color_favorito", "#a6cd18"], ["created_at", "2022-07-15 05:19:03.965824"], ["updated_at", "2022-07-15 05:19:03.965824"]]
+  ↳ app/controllers/pages_controller.rb:6:in `crear'
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pages_controller.rb:6:in `crear'
+No template found for PagesController#crear, rendering head :no_content
+Completed 204 No Content in 36ms (ActiveRecord: 3.4ms | Allocations: 11180)
+
+
+Started GET "/" for ::1 at 2022-07-14 22:19:33 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 11.5ms | Allocations: 7687)
+  Rendered layout layouts/application.html.erb (Duration: 104.2ms | Allocations: 44270)
+Completed 500 Internal Server Error in 111ms (ActiveRecord: 0.0ms | Allocations: 46170)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+
+and restart your server):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2022-07-14 22:19:38 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 5272)
+  Rendered layout layouts/application.html.erb (Duration: 34.3ms | Allocations: 22812)
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 0.0ms | Allocations: 23101)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+
+and restart your server):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2022-07-14 22:19:45 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 5151)
+  Rendered layout layouts/application.html.erb (Duration: 37.7ms | Allocations: 22519)
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.0ms | Allocations: 22769)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+
+and restart your server):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2022-07-14 22:20:33 -0700
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 19.6ms | Allocations: 7875)
+  Rendered layout layouts/application.html.erb (Duration: 100.4ms | Allocations: 44266)
+Completed 500 Internal Server Error in 117ms (ActiveRecord: 0.0ms | Allocations: 47608)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+
+and restart your server):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2022-07-14 22:22:45 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 5272)
+  Rendered layout layouts/application.html.erb (Duration: 41.4ms | Allocations: 22741)
+Completed 500 Internal Server Error in 43ms (ActiveRecord: 0.0ms | Allocations: 23031)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+
+and restart your server):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2022-07-14 22:22:47 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 5150)
+  Rendered layout layouts/application.html.erb (Duration: 34.8ms | Allocations: 22460)
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 0.0ms | Allocations: 22706)
+
+
+  
+ActionView::Template::Error (Asset `application.css` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.css
+
+and restart your server):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2022-07-14 22:22:59 -0700
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 12.6ms | Allocations: 7874)
+  Rendered layout layouts/application.html.erb (Duration: 78.5ms | Allocations: 32437)
+Completed 500 Internal Server Error in 92ms (ActiveRecord: 0.0ms | Allocations: 35779)
+
+
+  
+ActionView::Template::Error (couldn't find file 'application.scss'
+Checked in these paths: 
+  /Users/theface/Programacion/registros/registros/app/assets/config
+  /Users/theface/Programacion/registros/registros/app/assets/images
+  /Users/theface/Programacion/registros/registros/app/assets/stylesheets
+  /Users/theface/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/stimulus-rails-1.0.4/app/assets/javascripts
+  /Users/theface/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/turbo-rails-1.1.1/app/assets/javascripts
+  /Users/theface/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/importmap-rails-1.1.2/app/assets/javascripts
+  /Users/theface/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actiontext-7.0.3/app/assets/javascripts
+  /Users/theface/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actiontext-7.0.3/app/assets/stylesheets
+  /Users/theface/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actioncable-7.0.3/app/assets/javascripts
+  /Users/theface/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activestorage-7.0.3/app/assets/javascripts
+  /Users/theface/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actionview-7.0.3/lib/assets/compiled
+  /Users/theface/Programacion/registros/registros/app/javascript
+  /Users/theface/Programacion/registros/registros/vendor/javascript
+  /Users/theface/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/popper_js-2.9.3/assets/javascripts
+  /Users/theface/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bootstrap-5.1.3/assets/stylesheets
+  /Users/theface/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bootstrap-5.1.3/assets/javascripts):
+  
+app/assets/config/manifest.js:5
+Started GET "/" for ::1 at 2022-07-14 22:23:22 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 5272)
+  Rendered layout layouts/application.html.erb (Duration: 98.2ms | Allocations: 52288)
+Completed 500 Internal Server Error in 100ms (ActiveRecord: 0.0ms | Allocations: 52580)
+
+
+  
+ActionView::Template::Error (Asset `bootstrap.min.js` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link bootstrap.min.js
+
+and restart your server):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/" for ::1 at 2022-07-14 22:23:58 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 5151)
+  Rendered layout layouts/application.html.erb (Duration: 48.5ms | Allocations: 29888)
+Completed 500 Internal Server Error in 50ms (ActiveRecord: 0.0ms | Allocations: 30138)
+
+
+  
+ActionView::Template::Error (Asset `bootstrap.min.js` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link bootstrap.min.js
+
+and restart your server):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/" for ::1 at 2022-07-14 22:24:38 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 5150)
+  Rendered layout layouts/application.html.erb (Duration: 108.2ms | Allocations: 57582)
+Completed 500 Internal Server Error in 109ms (ActiveRecord: 0.0ms | Allocations: 57828)
+
+
+  
+ActionView::Template::Error (Asset `popper.js` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link popper.js
+
+and restart your server):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/" for ::1 at 2022-07-14 22:24:59 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 5151)
+  Rendered layout layouts/application.html.erb (Duration: 82.6ms | Allocations: 51310)
+Completed 200 OK in 84ms (Views: 83.2ms | ActiveRecord: 0.0ms | Allocations: 51637)
+
+
+Started POST "/crear_pages" for ::1 at 2022-07-14 22:25:49 -0700
+Processing by PagesController#crear as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "nombre"=>"sadas", "apellido"=>"dsadas", "correo"=>"adsdas@sdsd.com", "password"=>"[FILTERED]", "color_favorito"=>"#000000", "commit"=>"Registrar"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pages_controller.rb:6:in `crear'
+  [1m[36mTag Create (0.6ms)[0m  [1m[32mINSERT INTO "tags" ("nombre", "apellido", "correo", "password", "color_favorito", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["nombre", "sadas"], ["apellido", "dsadas"], ["correo", "adsdas@sdsd.com"], ["password", "[FILTERED]"], ["color_favorito", "#000000"], ["created_at", "2022-07-15 05:25:49.723298"], ["updated_at", "2022-07-15 05:25:49.723298"]]
+  ↳ app/controllers/pages_controller.rb:6:in `crear'
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pages_controller.rb:6:in `crear'
+No template found for PagesController#crear, rendering head :no_content
+Completed 204 No Content in 20ms (ActiveRecord: 3.0ms | Allocations: 9527)
+
+
+Started GET "/" for ::1 at 2022-07-14 22:28:41 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 10.9ms | Allocations: 5699)
+  Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 8429)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms | Allocations: 9299)
+
+
+Started GET "/" for ::1 at 2022-07-14 22:34:53 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 5153)
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 7457)
+Completed 200 OK in 14ms (Views: 13.0ms | Allocations: 7744)
+
+
+Started GET "/" for ::1 at 2022-07-14 22:37:48 -0700
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 32.9ms | Allocations: 7892)
+  Rendered layout layouts/application.html.erb (Duration: 186.1ms | Allocations: 52029)
+Completed 200 OK in 212ms (Views: 194.8ms | ActiveRecord: 0.0ms | Allocations: 55421)
+
+
+Started GET "/" for ::1 at 2022-07-14 22:37:54 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 5268)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 7599)
+Completed 200 OK in 13ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 7938)
+
+
+Started POST "/crear_pages" for ::1 at 2022-07-14 22:38:32 -0700
+Processing by PagesController#crear as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "nombre"=>"aSsa", "apellido"=>"ZXCZ", "correo"=>"s@asada.com", "password"=>"[FILTERED]", "color_favorito"=>"#000000", "commit"=>"Registrar"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/pages_controller.rb:6:in `crear'
+  [1m[36mTag Create (0.6ms)[0m  [1m[32mINSERT INTO "tags" ("nombre", "apellido", "correo", "password", "color_favorito", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["nombre", "aSsa"], ["apellido", "ZXCZ"], ["correo", "s@asada.com"], ["password", "[FILTERED]"], ["color_favorito", "#000000"], ["created_at", "2022-07-15 05:38:32.747786"], ["updated_at", "2022-07-15 05:38:32.747786"]]
+  ↳ app/controllers/pages_controller.rb:6:in `crear'
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/pages_controller.rb:6:in `crear'
+No template found for PagesController#crear, rendering head :no_content
+Completed 204 No Content in 24ms (ActiveRecord: 3.0ms | Allocations: 9497)
+
+
+Started GET "/" for ::1 at 2022-07-15 13:09:30 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 21.0ms | Allocations: 5287)
+  Rendered layout layouts/application.html.erb (Duration: 37.7ms | Allocations: 7702)
+Completed 200 OK in 44ms (Views: 41.1ms | Allocations: 8019)
+
+
+Started GET "/" for ::1 at 2022-07-16 15:18:16 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 16.0ms | Allocations: 5147)
+  Rendered layout layouts/application.html.erb (Duration: 28.8ms | Allocations: 7459)
+Completed 200 OK in 32ms (Views: 29.7ms | Allocations: 7730)
+
+
+Started GET "/" for ::1 at 2022-07-16 22:48:07 -0700
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 6.7ms | Allocations: 5146)
+  Rendered layout layouts/application.html.erb (Duration: 19.4ms | Allocations: 7449)
+Completed 200 OK in 22ms (Views: 20.7ms | Allocations: 7719)
+
+
